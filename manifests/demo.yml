@@ -50,6 +50,7 @@ metadata:
   name: spinnaker-demo
   namespace: default
 spec:
+  type: LoadBalancer
   selector:
     source: demo
     app: spinnaker
